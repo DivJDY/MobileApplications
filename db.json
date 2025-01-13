@@ -1,0 +1,30 @@
+{
+  "categories": [
+    { "id": 1, "name": "Car Wash" },
+    { "id": 2, "name": "Detailing" },
+    { "id": 3, "name": "Interior Cleaning" }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "location": "Dubai",
+      "name": "Basic Wash",
+      "price": "50 AED",
+      "description": "A basic car wash service",
+      "companyId": 1
+    },
+    {
+      "id": 2,
+      "location": "Sharjah",
+      "name": "Premium Wash",
+      "price": "100 AED",
+      "description": "A premium car wash service",
+      "companyId": 2
+    }
+  ],
+  "companies": [
+    { "id": 1, "name": "Perfect Spot Auto Spa", "services": [1] },
+    { "id": 2, "name": "Clean Ride Services", "services": [2] }
+  ],
+  "bookings": []
+}
